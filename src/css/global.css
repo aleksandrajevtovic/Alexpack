@@ -1,0 +1,142 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.my-100 {
+  margin: 100px 0;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #090e11;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus, .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #090e11;
+  border-color: #090e11;
+}
+
+.py-80 {
+  padding: 80px 0;
+}
+
+.accent-btn {
+  background: #D93A31;
+  color: #ffffff;
+  border: 1px solid #D93A31;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.03rem;
+  font-weight: 500;
+  text-align: center;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  margin-right: 8px;
+  border-radius: 0;
+}
+
+.accent-btn:hover {
+  background: #090e11;
+  border: 1px solid #090e11;
+  color: #ffffff;
+}
+
+.accent-btn img {
+  margin-left: 1rem;
+}
+
+.outline-btn {
+  background: transparent;
+  border: 1px solid #090e11;
+  color: #090e11 !important;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.03rem;
+  font-weight: 500;
+  text-align: center;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  border-radius: 0;
+}
+
+.outline-btn:hover {
+  background: #090e11;
+  color: #ffffff !important;
+  border-color: #090e11;
+}
+
+.outline-btn:hover img:first-child {
+  display: none;
+}
+
+.outline-btn:hover img:last-child {
+  display: inline-block;
+}
+
+.outline-btn img {
+  margin-left: 1rem;
+}
+
+.underline-btn {
+  background-color: transparent;
+  color: #090e11;
+  border: none;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+
+.underline-btn span {
+  border-bottom: 1px solid #090e11;
+  padding-bottom: 2px;
+}
+
+.underline-btn:hover {
+  background-color: transparent;
+  color: #D93A31;
+}
+
+.underline-btn:hover span {
+  border-bottom: 1px solid #D93A31;
+}
+
+@media only screen and (max-width: 992px) {
+  .accent-btn {
+    padding: 15px 25px;
+  }
+  .outline-btn {
+    padding: 15px 25px;
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  .outline-btn {
+    padding: 13px 10px;
+    font-size: 13px;
+    margin-right: 0;
+  }
+  .accent-btn {
+    font-size: 13px;
+    margin-right: 0;
+  }
+}

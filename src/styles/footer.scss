@@ -1,0 +1,141 @@
+@import "./variables";
+
+.footer {
+  position: relative;
+}
+.footer-bg-dark {
+  background: $darkColor;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.email-wrapp {
+  display: flex;
+  p {
+    margin-left: 1rem;
+    margin-bottom: 0;
+    a {
+      color: $whiteColor;
+      font-weight: 300;
+    }
+  }
+}
+.footer-title-wrapper {
+  h3 {
+    color: $whiteColor;
+    margin-bottom: 2.5rem;
+  }
+  p {
+    color: $whiteColor;
+    a {
+      &:hover {
+        color: $accentColor;
+      }
+    }
+  }
+  ul {
+    li {
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+      display: inline-block;
+      padding: 0px 15px;
+      a {
+        i {
+          color: $whiteColor;
+        }
+      }
+    }
+  }
+}
+ul {
+  list-style-type: none;
+  padding: 0 !important;
+}
+.copyright {
+  padding-top: 50px;
+  p {
+    color: $lightGrey;
+    font-size: 14px;
+    img {
+      margin: 0 0.5rem;
+    }
+  }
+  ul {
+    text-align: right;
+    li {
+      .footer-link {
+        color: $lightGrey;
+        font-size: 14px;
+        &:hover {
+          color: $accentColor;
+        }
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+      display: inline-block;
+      padding: 0px 15px;
+      position: relative;
+      &:last-child {
+        padding-right: 0;
+        &:before {
+          width: 0;
+        }
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        right: 0;
+        width: 2px;
+        // height: 12px;
+        height: 20px;
+        background: $whiteColor;
+        opacity: 0.2;
+      }
+    }
+  }
+}
+.footer-title-wrapper.right {
+  text-align: right;
+}
+@media (max-width: 991px) {
+  .footer-title-wrapper.right {
+    text-align: center;
+  }
+  .email-wrapp {
+    justify-content: center;
+  }
+  .copyright {
+    padding-top: 30px;
+    p {
+      text-align: center;
+    }
+    ul {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .footer-title-wrapper {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .footer-title-wrapper
+  {
+
+  &.right {
+    h3 {
+      margin-top: 3rem;
+
+    }
+  }
+}
+}

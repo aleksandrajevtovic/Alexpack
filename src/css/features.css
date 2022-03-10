@@ -1,0 +1,129 @@
+.features-section {
+  background: #090e11;
+}
+
+.features-section .services-item {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.center-heading {
+  text-align: center;
+}
+
+.center-heading .section-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: calc(1.5rem + 1.5vw);
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #cccccc;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.hideImg {
+  display: none;
+}
+
+.services-item {
+  display: block;
+  background-image: linear-gradient(127deg, #fff 0%, #fff 91%);
+  background: #0e161b;
+  -webkit-box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.03);
+          box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.03);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  line-height: 26px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.services-item i {
+  font-size: 30px;
+  margin-bottom: 23px;
+  background-image: linear-gradient(127deg, #d93a31 0%, #e7837e 91%);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 2;
+}
+
+.services-item .services-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 23px 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 2;
+}
+
+.services-item p {
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 0px !important;
+  color: #cccccc;
+  font-size: 16px;
+}
+
+.services-item:before {
+  content: "";
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-image: linear-gradient(127deg, #d93a31 0%, #e7837e 91%);
+  opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.services-item:hover {
+  color: #f7f8ff;
+}
+
+.services-item:hover p {
+  color: #fff !important;
+}
+
+.services-item:hover:before {
+  opacity: 1;
+}
+
+.services-item:hover i {
+  background-image: linear-gradient(127deg, #fff 0%, #fff 91%);
+}
+
+.services-item:hover .services-title {
+  color: #fff !important;
+}
+
+.bre:hover img:first-child {
+  display: none;
+}
+
+.bre:hover img:last-child {
+  display: block !important;
+}
+
+.bre:hover img .hideImg {
+  display: inline-block;
+}

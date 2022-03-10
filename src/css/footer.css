@@ -1,0 +1,155 @@
+.footer {
+  position: relative;
+}
+
+.footer-bg-dark {
+  background: #090e11;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.email-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.email-wrapp p {
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.email-wrapp p a {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.footer-title-wrapper h3 {
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+}
+
+.footer-title-wrapper p {
+  color: #ffffff;
+}
+
+.footer-title-wrapper p a:hover {
+  color: #D93A31;
+}
+
+.footer-title-wrapper ul li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.footer-title-wrapper ul li:first-child {
+  padding-left: 0;
+}
+
+.footer-title-wrapper ul li:last-child {
+  padding-right: 0;
+}
+
+.footer-title-wrapper ul li a i {
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+.copyright {
+  padding-top: 50px;
+}
+
+.copyright p {
+  color: #919598;
+  font-size: 14px;
+}
+
+.copyright p img {
+  margin: 0 0.5rem;
+}
+
+.copyright ul {
+  text-align: right;
+}
+
+.copyright ul li {
+  display: inline-block;
+  padding: 0px 15px;
+  position: relative;
+}
+
+.copyright ul li .footer-link {
+  color: #919598;
+  font-size: 14px;
+}
+
+.copyright ul li .footer-link:hover {
+  color: #D93A31;
+}
+
+.copyright ul li:first-child {
+  padding-left: 0;
+}
+
+.copyright ul li:last-child {
+  padding-right: 0;
+}
+
+.copyright ul li:last-child:before {
+  width: 0;
+}
+
+.copyright ul li:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 0;
+  width: 2px;
+  height: 20px;
+  background: #ffffff;
+  opacity: 0.2;
+}
+
+.footer-title-wrapper.right {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .footer-title-wrapper.right {
+    text-align: center;
+  }
+  .email-wrapp {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .copyright {
+    padding-top: 30px;
+  }
+  .copyright p {
+    text-align: center;
+  }
+  .copyright ul {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-title-wrapper {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-title-wrapper.right h3 {
+    margin-top: 3rem;
+  }
+}

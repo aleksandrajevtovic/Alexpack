@@ -1,0 +1,29 @@
+.empty-bag {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.empty-bag .icon img {
+  width: 80px;
+}
+
+.empty-bag h3 {
+  text-transform: uppercase;
+  margin: 2rem 0 1rem;
+}
+
+.empty-bag .wrapper-btn {
+  margin-top: 2rem;
+}
+
+.accent-btn.dark {
+  background-color: #090e11;
+  border-color: #090e11;
+}
+
+.accent-btn.dark:hover {
+  background-color: #D93A31;
+  border-color: #D93A31;
+}

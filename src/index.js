@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './css/global.css';
+import './css/hero.css';
+import './css/navigation.css';
+import './css/innovation.css';
+import './css/features.css';
+import './css/howtouse.css';
+import './css/footer.css';
+import './css/contact.css';
+import './css/about.css';
+import './css/bag.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
+
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

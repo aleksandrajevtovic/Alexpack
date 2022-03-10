@@ -1,0 +1,143 @@
+.hero {
+  margin-top: 8rem;
+}
+
+.hero-wrapper {
+  text-transform: uppercase;
+}
+
+.hero-wrapper h1 {
+  font-size: calc(4vw + 4vh + 2vmin);
+  font-weight: 800;
+  line-height: 1.1;
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.hero-wrapper h1 span {
+  color: #D93A31;
+  font-size: calc(4vw + 4vh + 2vmin);
+}
+
+.hero-wrapper h2 {
+  font-size: calc(2.5vw + 2.5vh + 1vmin);
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.hero-wrapper p {
+  font-size: calc(1vw + 1vh + 1vmin);
+  font-weight: 500;
+}
+
+.hide {
+  display: none;
+}
+
+.accent-div {
+  background: #090e11;
+  padding: 0 !important;
+}
+
+.customize {
+  padding: 4rem 2rem;
+  color: #ffffff;
+}
+
+.small-title {
+  font-size: 14px !important;
+  line-height: 22px;
+}
+
+.medium-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.picture1 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 567px;
+  height: 540px;
+}
+
+.picture2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 567px;
+  height: 270px;
+}
+
+.picture3 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 567px;
+  height: 270px;
+}
+
+.buttons-block {
+  margin: 3rem 0 5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-wrapper h2 {
+    font-size: 50px;
+    font-weight: 800 !important;
+  }
+  .header-wrapper h3 {
+    font-size: 30px;
+  }
+  .header-wrapper p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-wrapper h2 {
+    margin-bottom: 1.5rem;
+  }
+  .picture1 img {
+    height: 450px;
+  }
+  .picture2 img {
+    height: 225px;
+  }
+  .picture3 img {
+    height: 225px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .picture1 img {
+    height: 320px;
+  }
+  .picture2 img {
+    height: 160px;
+  }
+  .picture3 img {
+    height: 160px;
+  }
+  .header-wrapper {
+    padding: 0;
+  }
+  .buttons-block {
+    margin: 2rem 0 3rem;
+  }
+  .customize {
+    padding: 2rem 2rem 1rem;
+  }
+  .customize:last-child {
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  .buttons-block {
+    display: -ms-grid;
+    display: grid;
+    gap: 0.5rem;
+    margin: 2rem 0 3rem;
+  }
+}

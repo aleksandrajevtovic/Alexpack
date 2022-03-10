@@ -1,0 +1,124 @@
+@import "./variables";
+
+// .innovation-section {
+//     padding: 80px 0;
+// }
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .img-l-text-r-section {
+    .description {
+      box-shadow: 0px 9px 11px 2px rgba(0, 0, 0, 0.07) !important;
+    }
+  }
+  .position-left-sec,
+  .position-right-sec {
+    margin-top: -3rem;
+  }
+}
+
+// @media (min-width: 400px) {
+
+// }
+@media (min-width: 768px) {
+  .position-left-sec {
+    margin-left: -5rem;
+    margin-right: -5rem;
+  }
+  .position-right-sec {
+    margin-right: -5rem;
+    margin-left: -5rem;
+  }
+}
+@media (min-width: 991px) {
+  .position-left-sec {
+    margin-left: -6rem;
+    margin-right: 2rem;
+  }
+  .position-right-sec {
+    margin-right: -6rem;
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .position-left-sec {
+    margin-left: -17rem;
+    margin-right: 8rem;
+  }
+  .position-right-sec {
+    margin-right: -17rem;
+    margin-left: 8rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .position-left-sec {
+    margin-left: -23rem;
+    margin-right: 13rem;
+  }
+  .position-right-sec {
+    margin-left: 13rem;
+    margin-right: -23rem;
+  }
+}
+.img-l-text-r-section {
+  .description {
+    background: #ffffff4d;
+    padding: 50px 30px;
+    box-shadow: 5px 0px 11px 2px rgba(0, 0, 0, 0.07);
+    &.b-shadow {
+      box-shadow: -4px 2px 11px 2px rgba(0, 0, 0, 0.07);
+    }
+  }
+  h3 {
+    color: #303030;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  p {
+    color: $darkColor;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .simple-btn {
+    color: $accentColor;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    padding: 0;
+    span {
+      font-weight: 500;
+      &:hover {
+        border-bottom: 1px solid $accentColor;
+        padding-bottom: 0.2rem;
+      }
+    }
+
+    img {
+      margin-left: 1rem;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .thumb1 {
+    display: flex;
+  }
+  .thumb2 {
+    z-index: -1;
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media (max-width: 767px) {
+  .order-1-custom {
+    order: -1 !important;
+  }
+  .img-l-text-r-section {
+    .thumb2,
+    .thumb1 {
+      justify-content: center;
+    }
+  }
+}

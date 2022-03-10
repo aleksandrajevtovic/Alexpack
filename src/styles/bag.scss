@@ -1,0 +1,30 @@
+@import "./variables";
+
+.empty-bag {
+	height: 100vh;
+    display: grid;
+    place-content: center;
+	.icon {
+		img {
+			width:80px;
+		}
+	}
+	h3 {
+		text-transform: uppercase;
+		margin: 2rem 0 1rem;
+	}
+	.wrapper-btn {
+		margin-top: 2rem;
+	}
+}
+
+.accent-btn {
+	&.dark {
+		background-color: $darkColor;
+		border-color: $darkColor;
+		&:hover {
+			background-color: $accentColor;
+			border-color: $accentColor;
+		}
+	}
+}
