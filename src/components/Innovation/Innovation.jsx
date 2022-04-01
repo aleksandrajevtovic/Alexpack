@@ -6,21 +6,21 @@ const Innovation = () => {
   let navigate = useNavigate();
 
   return (
-    <div class="innovation-section py-80" id="innovation">
+    <div className="innovation-section py-80" id="innovation">
       <Container className="img-l-text-r-section">
         <Row className="no-gutters align-items-center">
           <Col md={6} xl={7} className="thumb1">
             <img
               src="/assets/img/blue-backpack-front.jpg"
               alt="feature thumb 1"
-              class="img-fluid"
+              className="img-fluid"
             />
           </Col>
           <Col md={6} xl={5}>
             <div className="position-left-sec">
-              <div class="">
-                <div class=" text-lg-left description">
-                  <h3 class="display-3 font-weight-400 mb-3">
+              <div className="">
+                <div className=" text-lg-left description">
+                  <h3 className="display-3 font-weight-400 mb-3">
                     A breakthrough in workout eqipment
                   </h3>
 
@@ -41,7 +41,7 @@ const Innovation = () => {
                       <img
                         src="/assets/img/longarrowRed.svg"
                         alt=""
-                        class="ml-5"
+                        className="ml-5"
                       />
                     </span>
                   </Button>
@@ -52,10 +52,10 @@ const Innovation = () => {
         </Row>
         <Row className="no-gutters align-items-center mt-5">
           <Col md={6} xl={5}>
-            <div class="position-right-sec">
-              <div class="">
-                <div class=" text-lg-left description b-shadow">
-                  <h3 class="display-3 font-weight-400 mb-3">
+            <div className="position-right-sec">
+              <div className="">
+                <div className=" text-lg-left description b-shadow">
+                  <h3 className="display-3 font-weight-400 mb-3">
                     A revolution in design
                   </h3>
 
@@ -76,7 +76,7 @@ const Innovation = () => {
                       <img
                         src="/assets/img/longarrowRed.svg"
                         alt=""
-                        class="ml-5"
+                        className="ml-5"
                       />
                     </span>
                   </Button>
@@ -88,7 +88,7 @@ const Innovation = () => {
             <img
               src="/assets/img/blue-backpack-detail.jpg"
               alt="feature thumb 2"
-              class="img-fluid"
+              className="img-fluid"
             />
           </Col>
         </Row>

@@ -1,16 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   let navigate = useNavigate();
   return (
-    <div class="footer footer-bg-dark pt-80 pb-30">
+    <div className="footer footer-bg-dark pt-80 pb-30">
       <Container>
         <Row>
           <Col sm={6}>
-            <div class="footer-title-wrapper">
+            <div className="footer-title-wrapper">
               <h3>CONTACT US</h3>
               <div className="email-wrapp">
               <img src="/assets/img/envelope.svg" alt="" width="30px" />
@@ -19,18 +18,18 @@ const Footer = () => {
             </div>
           </Col>
           <Col sm={6}>
-            <div class="footer-title-wrapper right">
+            <div className="footer-title-wrapper right">
               <h3>CONNECT</h3>
               <ul>
                 <li>
-                  <a href="#" class="social-icon">
-                    {/* <i class="fab fa-facebook-f"></i> */}
+                  <a href="#" className="social-icon">
+                    {/* <i className="fab fa-facebook-f"></i> */}
                     <img src="/assets/img/face.svg" alt="" width="30px" />
 
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="social-icon">
+                  <a href="#" className="social-icon">
                     <img src="/assets/img/insta.svg" alt="" width="30px" />
 
                   </a>

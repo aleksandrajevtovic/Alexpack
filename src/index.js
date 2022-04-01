@@ -11,6 +11,8 @@ import './css/footer.css';
 import './css/contact.css';
 import './css/about.css';
 import './css/bag.css';
+import './css/shop.css';
+import './css/product.css';
 
 ReactDOM.render(
     <App />,

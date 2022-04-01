@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/Navigation";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
           <Row>
             <Col lg={6}>
               <div className="body">
-                <h2 class="mb-60">ABOUT US</h2>
+                <h2 className="mb-60">ABOUT US</h2>
                 <h3>How alexpack made my dreams come true</h3>
 
                 <p>
@@ -29,25 +29,25 @@ const About = () => {
               </div>
             </Col>
             <Col lg={6}>
-              <div class="img-about-wrap">
+              <div className="img-about-wrap">
                 <img
                   src="https://images.unsplash.com/photo-1600019248002-f4c4898f739b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJhY2twYWNrJTIwd29ya291dHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
                   alt="about img"
-                  class="img-fluid"
+                  className="img-fluid"
                 />
               </div>
             </Col>
             <Col lg={6} className="mt-100">
-              <div class="itm-media-object mt40 tilt-3d">
-                <div class="media">
-                  <div class="img-ab- base">
+              <div className="itm-media-object mt40 tilt-3d">
+                <div className="media">
+                  <div className="img-ab- base">
                     <img
                       src="/assets/img/health.svg"
                       alt="icon"
-                      class="layer"
+                      className="layer"
                     />
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <h4>Empack transformed my health</h4>
                     <p>
                       What I love the most about Evolved Motion and the creation
@@ -57,15 +57,15 @@ const About = () => {
                     </p>
                   </div>
                 </div>
-                <div class="media mt40">
-                  <div class="img-ab- base">
+                <div className="media mt40">
+                  <div className="img-ab- base">
                     <img
                       src="/assets/img/practical.svg"
                       alt="icon"
-                      class="layer"
+                      className="layer"
                     />
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <h4>PRACTICAL EQUIPMENT</h4>
                     <p>
                       Let’s face it. Working out can be tough. Where to do it,
@@ -80,12 +80,12 @@ const About = () => {
             </Col>
 
             <Col lg={6} className="mt-100">
-              <div class="itm-media-object mt40 tilt-3d">
-                <div class="media">
-                  <div class="img-ab- base">
-                    <img src="/assets/img/body.svg" alt="icon" class="layer" />
+              <div className="itm-media-object mt40 tilt-3d">
+                <div className="media">
+                  <div className="img-ab- base">
+                    <img src="/assets/img/body.svg" alt="icon" className="layer" />
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <h4>explore your body</h4>
                     <p>
                       I was able to explore my body in new ways, continue being
@@ -95,15 +95,15 @@ const About = () => {
                     </p>
                   </div>
                 </div>
-                <div class="media mt40">
-                  <div class="img-ab- base">
+                <div className="media mt40">
+                  <div className="img-ab- base">
                     <img
                       src="/assets/img/innovative.svg"
                       alt="icon"
-                      class="layer"
+                      className="layer"
                     />
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <h4>INNOVATIVE MIND</h4>
                     <p>
                       Changing the way we think about fitness and the equipment
@@ -126,7 +126,7 @@ const About = () => {
                 If you have further questions or want to get in contact with
                 someone directly please email us at{" "}
                 <a href="mailto:support@alexpack.com">support@alexpack.com</a>
-                or reach out via instagram <a href="">@alexpack</a>.
+                or reach out via instagram <a href="/alexpack">@alexpack</a>.
               </p>
               <p>
                 You can shop our products <Link to="/shop">here</Link>.

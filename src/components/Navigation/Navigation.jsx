@@ -14,7 +14,7 @@ const Navigation = () => {
 
   return (
     <>
-      <header class="header">
+      <header className="header">
         <Navbar
           expand="lg"
           variant="light"
@@ -35,7 +35,7 @@ const Navigation = () => {
                 // onClick={handleShow}
               >
                 <img src="/assets/img/bag.svg" alt="" width="30px" />
-                <span class="cart-counter sm">0</span>
+                <span className="cart-counter sm">0</span>
               </Link>
               <Navbar.Toggle aria-controls="emptybag"                 aria-labelledby="emptybagLabel"
  onClick={handleShow} />
@@ -58,7 +58,7 @@ const Navigation = () => {
               <Link to="/about" className="nav-link">
                 About
               </Link>
-              <Link to="/buy-now" className="nav-link">
+              <Link to="/shop" className="nav-link">
                 Buy Now
               </Link>
             </div>
@@ -71,7 +71,7 @@ const Navigation = () => {
               </Link>
               <Link to="/" className="nav-link">
                 <img src="/assets/img/bag.svg" alt="" width="25px" />
-                <span class="cart-counter">0</span>
+                <span className="cart-counter">0</span>
               </Link>
             </div>
             <Navbar.Offcanvas

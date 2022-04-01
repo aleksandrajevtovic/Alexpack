@@ -5,18 +5,18 @@ import { useNavigate } from "react-router-dom";
 const Hero = () => {
   let navigate = useNavigate();
   return (
-    <div class="hero">
+    <div className="hero">
       <Container fluid>
         <Row>
           <Col lg>
             <Container fluid="md">
-              <div class="hero-wrapper">
+              <div className="hero-wrapper">
                 <h1>
                   ALEXPACK<span>.</span>
                 </h1>
                 <h2>made for every lifestyle</h2>
                 <p>just add water or sand</p>
-                <div class=" buttons-block">
+                <div className=" buttons-block">
                   <Button
                     className="accent-btn"
                     onClick={() => {
@@ -29,7 +29,7 @@ const Hero = () => {
                       alt="long-arrow-icon"
                     />
                   </Button>
-                  {/* <a href="" class="accent-btn">
+                  {/* <a href="" className="accent-btn">
                     EXPLORE MORE
                     <img
                       src="/assets/img/longarrow.svg"
@@ -50,7 +50,7 @@ const Hero = () => {
                     <img
                       src="/assets/img/longarrow.svg"
                       alt="long-arrow-icon"
-                      class="hide"
+                      className="hide"
                     />
                   </Button>
                 </div>
@@ -107,9 +107,9 @@ const Hero = () => {
           <Col lg className=" d-flex align-items-end">
             <Row>
               <Col className="d-flex align-items-end p-0">
-                <div class="picture1">
+                <div className="picture1">
                   <img
-                    class="img-fluid product-card-image"
+                    className="img-fluid product-card-image"
                     src="/assets/img/alexpackimg1.png"
                     alt="backpack1"
                   />
@@ -117,18 +117,18 @@ const Hero = () => {
               </Col>
               <Col className=" p-0">
                 <Row>
-                  <div class="picture2">
+                  <div className="picture2">
                     <img
-                      class="img-fluid product-card-image"
+                      className="img-fluid product-card-image"
                       src="/assets/img/alexpackimg2.png"
                       alt="backpack1"
                     />
                   </div>
                 </Row>
                 <Row>
-                  <div class="picture3">
+                  <div className="picture3">
                     <img
-                      class="img-fluid product-card-image"
+                      className="img-fluid product-card-image"
                       src="/assets/img/alexpackimg3.png"
                       alt="backpack1"
                     />
